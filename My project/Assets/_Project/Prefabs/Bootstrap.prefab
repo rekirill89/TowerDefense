@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1013719987919714371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4266853855797204104}
+  - component: {fileID: 1945323353598703284}
+  m_Layer: 2
+  m_Name: Bootstrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4266853855797204104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013719987919714371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.37606, y: 0.64704, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1945323353598703284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013719987919714371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f2190066119cb42aa06b3408ea44cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bootstrap
+  _stronghold: {fileID: 0}
+  _enemyPrefab: {fileID: 4494342036201473211, guid: e3725b359d9c90a449b221f9d7c99043, type: 3}
+  _archerPrefab: {fileID: -4039647224593155567, guid: a836e9bb8f6b77b4b905af3e67fc9432, type: 3}
+  _cannonPrefab: {fileID: 1418308015570212324, guid: b9535eb7b38e92e49971352a787fd206, type: 3}
+  _rewardSO: {fileID: 11400000, guid: b1e9f3fadecdcf44d82e11d40ff5b3ac, type: 2}
+  _upgradeStrongholdSO: {fileID: 11400000, guid: fc4afd20e82f36449963c7310ee57c1f, type: 2}
+  _infoPanelView: {fileID: 0}
+  _battleStartPanelView: {fileID: 0}
+  _choseActionPanelView: {fileID: 0}
+  _upgradeStructurePanelView: {fileID: 0}
+  _screenInputHandler: {fileID: 0}
